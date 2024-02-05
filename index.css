@@ -1,0 +1,28 @@
+.main-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.bot {
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px 4px rgb(223, 226, 226);
+    border: none;
+}
+
+.chat-div {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(241, 241, 238);
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px rgb(202, 202, 200);
+    border: none;
+}
+
+.chat-div>h1 {
+    background: -webkit-linear-gradient(#54e21c, #dd3737);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
